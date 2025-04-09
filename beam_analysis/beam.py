@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #                                                                              #
-#                      Osdag Moving Load Beam Analysis                         #
-#               (Enhanced OOP Structure with UDL Support)                      #
-#                                                                              #
-#    This program is free software: you can redistribute it and/or modify      #
-#    it under the terms of the MIT License.                                    #
+#                       Moving Load Beam Analysis                              #                                             #
 #                                                                              #
 ################################################################################
 
@@ -172,7 +168,7 @@ def _analyze_simply_supported_udl(beam: Beam, loads: UDLLoadSystem) -> AnalysisR
     # Explicitly set point-load specific fields to None for ALL UDL cases upfront
     res.BM_01 = None
     res.SF_01 = None
-    
+
     if w == 0: 
         return res
 
