@@ -368,4 +368,3 @@ if __name__ == "__main__":
     window = BeamAnalysisApp()
     window.show()
     sys.exit(app.exec())
-# --- END OF FINAL beam.py ---
